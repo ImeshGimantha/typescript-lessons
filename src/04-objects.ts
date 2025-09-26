@@ -22,6 +22,7 @@ let person: Person = {
     isStudent: false
 }
 
+// custom type
 // type can be declare as a one type or multi type structure
 type Point = number | string;
 const P1: Point = 1;

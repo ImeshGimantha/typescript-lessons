@@ -28,3 +28,13 @@ interface MathFunc {
 
 const add: MathFunc = (x: number, y: number): number => x + y;
 const sub: MathFunc = (x: number, y: number): number => x - y;
+
+// extend interfaces
+interface Point2D {
+    x: number;
+    y: number;
+}
+
+interface Point3D extends Point2D {
+    z: number;
+}
